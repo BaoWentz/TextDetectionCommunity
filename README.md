@@ -1,4 +1,5 @@
 OCR就在身边
+==========
 
 光学字符识别（英语：Optical Character Recognition，OCR）传统是指对文本资料的图像文件进行分析识别处理，获取文字及版面信息的过程。场景文字识别（Scene Text Recognition，STR） 指识别自然场景图片中的文字信息。自然场景图像中的文字识别，其难度远大于扫描文档图像中的文字识别，因为它的文字展现形式极其丰富。也有人用OCR技术泛指所有图像文字检测和识别技术， 包括传统OCR技术与场景文字识别技术。这是因为，场景文字识别技术可以被看成是传统OCR技术的自然演进与升级换代。
 
@@ -17,7 +18,7 @@ OCR的概念是在1929年由德国科学家Tausheck最先提出来的，后来�
 ---------------
 由于国际开源社区以及神经网络的快速发展，以及相关领域相关人员的分享知识共同促进AI发展的思想的普及，各大开源社区存在很多OCR相关的内容。
   
-[](https://github.com/hwalsuklee/awesome-deep-text-detection-recognition)
+[awesome-deep-text-detection-recognition](https://github.com/hwalsuklee/awesome-deep-text-detection-recognition)
 
 这个GitHub仓库列出了从2012年到2019年发表的用深度学习的方法解决OCR问题的论文清单。
 
