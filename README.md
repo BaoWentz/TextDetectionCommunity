@@ -18,7 +18,7 @@ OCR的概念是在1929年由德国科学家Tausheck最先提出来的，后来�
 ---------------
 由于国际开源社区以及神经网络的快速发展，以及相关领域相关人员的分享知识共同促进AI发展的思想的普及，各大开源社区存在很多OCR相关的内容。
   
-[awesome-deep-text-detection-recognition](https://github.com/hwalsuklee/awesome-deep-text-detection-recognition)
+[**awesome-deep-text-detection-recognition**](https://github.com/hwalsuklee/awesome-deep-text-detection-recognition)
 
 这个GitHub仓库列出了从2012年到2019年发表的用深度学习的方法解决OCR问题的论文清单。
 
