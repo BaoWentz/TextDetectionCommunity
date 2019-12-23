@@ -53,7 +53,8 @@ Tesseract，最初是由Hewlett Packard在1980年的惠普公司开发的，在2
 截止2019年12月15日，本项目共Watch 156次，Star 2.2k次，Fork 849次，共有issues299个，PR11个。
 
 [**OCRmyPDF**](https://github.com/jbarlow83/OCRmyPDF)
- ![image](https://github.com/BaoWentz/TextDetectionCommunity/blob/master/images/OCRmyPDF.svg)
+
+ <img src="https://github.com/BaoWentz/TextDetectionCommunity/blob/master/images/OCRmyPDF.svg" width="240" alt="OCRmyPDF">
 OCRmyPDF这个项目会分析PDF的每个页面，以确定捕获该页面上的所有信息而不丢失内容所需的色彩空间和分辨率（DPI）。OCRmyPDF使用多种策略，具体取决于输入选项和输入PDF本身，但通常来说，它会光栅化OCR的页面，然后将OCR嫁接到原始文档上。因此，它可以处理复杂的PDF，并且仍然尽可能保留其内容。OCRmyPDF使用开源OCR引擎Tesseract来执行OCR识别部分。
 截止2019年12月15日，本项目共Watch 77次，Star 2.1k次，Fork 262次，共有issues48个，PR2个。
 
