@@ -21,7 +21,7 @@ OCR的概念是在1929年由德国科学家Tausheck最先提出来的，后来�
 [**awesome-deep-text-detection-recognition**](https://github.com/hwalsuklee/awesome-deep-text-detection-recognition)
 
 这个GitHub仓库列出了从2012年到2019年发表的用深度学习的方法解决OCR问题的论文清单。
-
+![image](https://github.com/BaoWentz/TextDetectionCommunity/blob/master/images/awesome-deep-text-detection-recognition.png)
 这个清单分为四个板块：1、文本检测类论文2、文本识别类论文3、端到端的文本识别论文4、其他。每个板块中的论文都是按照发表时间排序。这些收集工作是NAVER-LINE公司里面的OCR小组做的，这个仓库会跟新国际上主要的几个AI会议上新出的OCR相关的论文。
 截止2019年12月15日，本项目在github平台上Star1.2k次，Fork 308次，共有Issues 4个，Pull request0个。
 
@@ -34,7 +34,7 @@ Tesseract，最初是由Hewlett Packard在1980年的惠普公司开发的，在2
 [**Paperless**](https://github.com/the-paperless-project/paperless)
 
 项目致力于通过OCR识别扫描文件的方法索引并存档所有的纸质文件。该项目创始于2015年，世界范围内使用的人很多。
- 
+ ![image](https://github.com/BaoWentz/TextDetectionCommunity/blob/master/images/Paperless.png)
 上一次更新是在三个月前，到现在该项目不再更新，因为它已经完全可以满足我们目前的需求。但是开发团队并没有放弃这个项目，有疑问的用户还是可以提出issue并会得到解答，项目开发者也欢迎用户添加新的东西。
 	还有一个名为Mayan EDMS的项目，与Paperless的技术惊人地相似。它基于Django并使用Tesseract和Unpaper，Mayan EDMS有更多的其他功能，并配有一个漂亮的UI，但使用Python 2编程。因此Paperless占用资源相对少。
 截止2019年12月15日，本项目共Watch 173次，Star 6.2k次，Fork 408次，共有commits1183个，contributor76个。
