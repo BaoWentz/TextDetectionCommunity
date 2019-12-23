@@ -53,8 +53,8 @@ Tesseract，最初是由Hewlett Packard在1980年的惠普公司开发的，在2
 *	身份证/火车票结构化数据识别
 *	新增CNN+ctc模型，支持DNN模块调用OCR，单行图像平均时间为0.02秒以下
 
-![image](https://github.com/BaoWentz/TextDetectionCommunity/blob/master/images/ChineseOcr.png)
-
+ <img src="https://github.com/BaoWentz/TextDetectionCommunity/blob/master/images/ChineseOcr.png" alt="ChineseOcr">
+ 
 由于这个项目融合多个框架，维护较困难，为了更好的部署应用，后续将只围绕darknet框架进行开发，不在支持keras、tensorflow、pytorch。
 截止2019年12月15日，本项目共Watch 156次，Star 2.2k次，Fork 849次，共有issues299个，PR11个。
 
