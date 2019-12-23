@@ -1,5 +1,4 @@
-<center>OCR就在身边</center>
-===========================
+OCR就在身边
 
 光学字符识别（英语：Optical Character Recognition，OCR）传统是指对文本资料的图像文件进行分析识别处理，获取文字及版面信息的过程。场景文字识别（Scene Text Recognition，STR） 指识别自然场景图片中的文字信息。自然场景图像中的文字识别，其难度远大于扫描文档图像中的文字识别，因为它的文字展现形式极其丰富。也有人用OCR技术泛指所有图像文字检测和识别技术， 包括传统OCR技术与场景文字识别技术。这是因为，场景文字识别技术可以被看成是传统OCR技术的自然演进与升级换代。
 
@@ -17,21 +16,21 @@ OCR的概念是在1929年由德国科学家Tausheck最先提出来的，后来�
 3、GitHub上OCR相关的开源社区
 ---------------
 由于国际开源社区以及神经网络的快速发展，以及相关领域相关人员的分享知识共同促进AI发展的思想的普及，各大开源社区存在很多OCR相关的内容。
-
-[***awesome-deep-text-detection-recognition***](https://github.com/hwalsuklee/awesome-deep-text-detection-recognition)
+  
+[](https://github.com/hwalsuklee/awesome-deep-text-detection-recognition)
 
 这个GitHub仓库列出了从2012年到2019年发表的用深度学习的方法解决OCR问题的论文清单。
 
 这个清单分为四个板块：1、文本检测类论文2、文本识别类论文3、端到端的文本识别论文4、其他。每个板块中的论文都是按照发表时间排序。这些收集工作是NAVER-LINE公司里面的OCR小组做的，这个仓库会跟新国际上主要的几个AI会议上新出的OCR相关的论文。
 截止2019年12月15日，本项目在github平台上Star1.2k次，Fork 308次，共有Issues 4个，Pull request0个。
 
-[***Tesseract开源OCR引擎***](https://github.com/tesseract-ocr/tesseract)
+[**Tesseract开源OCR引擎**](https://github.com/tesseract-ocr/tesseract)
 
 Tesseract，最初是由Hewlett Packard在1980年的惠普公司开发的，在2005年开源。2006年以后Google开始赞助这个项目。Tesseract可以处理很多自然语音，英语、葡萄牙语系、意大利语等。截止到2015年为止支持超过100种书面语言，并且可以通过训练学习轻松掌握其他语言。
 最初Tesseract是用C语言写的，在1998年改用C++。Tesseract是无GUI交互的，可以通过命令后被执行。但是有一些其他软件提供GUI对Tesseract进行了封装。目前该项目的首席开发人员是Ray Smith。维护者是Zdenko Podobny。
 截止2019年12月15日，本项目共Watch 1.6k次，Star 31.9k次，Fork 6k次，共有Issues 247个，Pull request 10个。
 
-[***Paperless***](https://github.com/the-paperless-project/paperless)
+[**Paperless**](https://github.com/the-paperless-project/paperless)
 
 项目致力于通过OCR识别扫描文件的方法索引并存档所有的纸质文件。该项目创始于2015年，世界范围内使用的人很多。
  
@@ -39,7 +38,7 @@ Tesseract，最初是由Hewlett Packard在1980年的惠普公司开发的，在2
 	还有一个名为Mayan EDMS的项目，与Paperless的技术惊人地相似。它基于Django并使用Tesseract和Unpaper，Mayan EDMS有更多的其他功能，并配有一个漂亮的UI，但使用Python 2编程。因此Paperless占用资源相对少。
 截止2019年12月15日，本项目共Watch 173次，Star 6.2k次，Fork 408次，共有commits1183个，contributor76个。
 
-[***ChineseOcr***](https://github.com/chineseocr/chineseocr)
+[**ChineseOcr**](https://github.com/chineseocr/chineseocr)
 
 本项目基于yolo3 与crnn 实现中文自然场景文字检测及识别。这个项目实现了很多功能，例如：
 *	文字方向检测 0、90、180、270度检测（支持dnn/tensorflow）
@@ -52,7 +51,7 @@ Tesseract，最初是由Hewlett Packard在1980年的惠普公司开发的，在2
 由于这个项目融合多个框架，维护较困难，为了更好的部署应用，后续将只围绕darknet框架进行开发，不在支持keras、tensorflow、pytorch。
 截止2019年12月15日，本项目共Watch 156次，Star 2.2k次，Fork 849次，共有issues299个，PR11个。
 
-[***OCRmyPDF***](https://github.com/jbarlow83/OCRmyPDF)
+[**OCRmyPDF**](https://github.com/jbarlow83/OCRmyPDF)
  
 OCRmyPDF这个项目会分析PDF的每个页面，以确定捕获该页面上的所有信息而不丢失内容所需的色彩空间和分辨率（DPI）。OCRmyPDF使用多种策略，具体取决于输入选项和输入PDF本身，但通常来说，它会光栅化OCR的页面，然后将OCR嫁接到原始文档上。因此，它可以处理复杂的PDF，并且仍然尽可能保留其内容。OCRmyPDF使用开源OCR引擎Tesseract来执行OCR识别部分。
 截止2019年12月15日，本项目共Watch 77次，Star 2.1k次，Fork 262次，共有issues48个，PR2个。
