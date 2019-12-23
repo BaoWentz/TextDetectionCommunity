@@ -21,7 +21,9 @@ OCR的概念是在1929年由德国科学家Tausheck最先提出来的，后来�
 [**awesome-deep-text-detection-recognition**](https://github.com/hwalsuklee/awesome-deep-text-detection-recognition)
 
 这个GitHub仓库列出了从2012年到2019年发表的用深度学习的方法解决OCR问题的论文清单。
+
 ![image](https://github.com/BaoWentz/TextDetectionCommunity/blob/master/images/awesome-deep-text-detection-recognition.png)
+
 这个清单分为四个板块：1、文本检测类论文2、文本识别类论文3、端到端的文本识别论文4、其他。每个板块中的论文都是按照发表时间排序。这些收集工作是NAVER-LINE公司里面的OCR小组做的，这个仓库会跟新国际上主要的几个AI会议上新出的OCR相关的论文。
 截止2019年12月15日，本项目在github平台上Star1.2k次，Fork 308次，共有Issues 4个，Pull request0个。
 
@@ -34,7 +36,9 @@ Tesseract，最初是由Hewlett Packard在1980年的惠普公司开发的，在2
 [**Paperless**](https://github.com/the-paperless-project/paperless)
 
 项目致力于通过OCR识别扫描文件的方法索引并存档所有的纸质文件。该项目创始于2015年，世界范围内使用的人很多。
- ![image](https://github.com/BaoWentz/TextDetectionCommunity/blob/master/images/Paperless.png)
+
+![image](https://github.com/BaoWentz/TextDetectionCommunity/blob/master/images/Paperless.png)
+
 上一次更新是在三个月前，到现在该项目不再更新，因为它已经完全可以满足我们目前的需求。但是开发团队并没有放弃这个项目，有疑问的用户还是可以提出issue并会得到解答，项目开发者也欢迎用户添加新的东西。
 	还有一个名为Mayan EDMS的项目，与Paperless的技术惊人地相似。它基于Django并使用Tesseract和Unpaper，Mayan EDMS有更多的其他功能，并配有一个漂亮的UI，但使用Python 2编程。因此Paperless占用资源相对少。
 截止2019年12月15日，本项目共Watch 173次，Star 6.2k次，Fork 408次，共有commits1183个，contributor76个。
@@ -48,13 +52,16 @@ Tesseract，最初是由Hewlett Packard在1980年的惠普公司开发的，在2
 *	支持darknet 转keras, keras转darknet, pytorch 转keras模型
 *	身份证/火车票结构化数据识别
 *	新增CNN+ctc模型，支持DNN模块调用OCR，单行图像平均时间为0.02秒以下
+
 ![image](https://github.com/BaoWentz/TextDetectionCommunity/blob/master/images/ChineseOcr.png)
+
 由于这个项目融合多个框架，维护较困难，为了更好的部署应用，后续将只围绕darknet框架进行开发，不在支持keras、tensorflow、pytorch。
 截止2019年12月15日，本项目共Watch 156次，Star 2.2k次，Fork 849次，共有issues299个，PR11个。
 
 [**OCRmyPDF**](https://github.com/jbarlow83/OCRmyPDF)
 
  <img src="https://github.com/BaoWentz/TextDetectionCommunity/blob/master/images/OCRmyPDF.svg" width="240" alt="OCRmyPDF">
+
 OCRmyPDF这个项目会分析PDF的每个页面，以确定捕获该页面上的所有信息而不丢失内容所需的色彩空间和分辨率（DPI）。OCRmyPDF使用多种策略，具体取决于输入选项和输入PDF本身，但通常来说，它会光栅化OCR的页面，然后将OCR嫁接到原始文档上。因此，它可以处理复杂的PDF，并且仍然尽可能保留其内容。OCRmyPDF使用开源OCR引擎Tesseract来执行OCR识别部分。
 截止2019年12月15日，本项目共Watch 77次，Star 2.1k次，Fork 262次，共有issues48个，PR2个。
 
